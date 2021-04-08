@@ -420,6 +420,15 @@
     lodash "^4.17.19"
     to-fast-properties "^2.0.0"
 
+"@graphiql/toolkit@^0.1.0":
+  version "0.1.1"
+  resolved "https://registry.yarnpkg.com/@graphiql/toolkit/-/toolkit-0.1.1.tgz#a7da3ba460ceae27bcdc8f03831ca4f88f90f3d7"
+  dependencies:
+    "@n1ru4l/push-pull-async-iterable-iterator" "^2.0.1"
+    graphql-ws "^4.1.0"
+    meros "^1.1.2"
+    subscriptions-transport-ws "^0.9.18"
+
 "@hapi/accept@5.0.1":
   version "5.0.1"
   resolved "https://registry.yarnpkg.com/@hapi/accept/-/accept-5.0.1.tgz#068553e867f0f63225a506ed74e899441af53e10"
@@ -457,6 +466,10 @@
   dependencies:
     call-me-maybe "^1.0.1"
     glob-to-regexp "^0.3.0"
+
+"@n1ru4l/push-pull-async-iterable-iterator@^2.0.1":
+  version "2.1.2"
+  resolved "https://registry.yarnpkg.com/@n1ru4l/push-pull-async-iterable-iterator/-/push-pull-async-iterable-iterator-2.1.2.tgz#e486bf86c4c29e78601694a26f31c2dec0c08d9b"
 
 "@next/env@10.1.3":
   version "10.1.3"
@@ -517,6 +530,10 @@
   dependencies:
     defer-to-connect "^1.0.1"
 
+"@types/json-schema@^7.0.6":
+  version "7.0.7"
+  resolved "https://registry.yarnpkg.com/@types/json-schema/-/json-schema-7.0.7.tgz#98a993516c859eb0d5c4c8f098317a9ea68db9ad"
+
 "@types/node@*":
   version "14.14.37"
   resolved "https://registry.yarnpkg.com/@types/node/-/node-14.14.37.tgz#a3dd8da4eb84a996c36e331df98d82abd76b516e"
@@ -538,6 +555,10 @@ agent-base@4, agent-base@^4.3.0:
   dependencies:
     es6-promisify "^5.0.0"
 
+ajv-keywords@^3.5.2:
+  version "3.5.2"
+  resolved "https://registry.yarnpkg.com/ajv-keywords/-/ajv-keywords-3.5.2.tgz#31f29da5ab6e00d1c2d329acf7b5929614d5014d"
+
 ajv@5, ajv@^5.5.1:
   version "5.5.2"
   resolved "https://registry.yarnpkg.com/ajv/-/ajv-5.5.2.tgz#73b5eeca3fab653e3d3f9422b341ad42205dc965"
@@ -547,7 +568,7 @@ ajv@5, ajv@^5.5.1:
     fast-json-stable-stringify "^2.0.0"
     json-schema-traverse "^0.3.0"
 
-ajv@^6.12.3:
+ajv@^6.12.3, ajv@^6.12.5:
   version "6.12.6"
   resolved "https://registry.yarnpkg.com/ajv/-/ajv-6.12.6.tgz#baf5a62e802b07d977034586f8c3baf5adf26df4"
   dependencies:
@@ -770,6 +791,10 @@ ast-types@0.13.2:
   version "0.13.2"
   resolved "https://registry.yarnpkg.com/ast-types/-/ast-types-0.13.2.tgz#df39b677a911a83f3a049644fb74fdded23cea48"
 
+async-limiter@~1.0.0:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/async-limiter/-/async-limiter-1.0.1.tgz#dd379e94f0db8310b08291f9d64c3209766617fd"
+
 async@^2.6.1:
   version "2.6.3"
   resolved "https://registry.yarnpkg.com/async/-/async-2.6.3.tgz#d72625e2344a3656e3a3ad4fa749fa83299d82ff"
@@ -864,6 +889,10 @@ babel-runtime@^6.25.0:
   dependencies:
     core-js "^2.4.0"
     regenerator-runtime "^0.11.0"
+
+backo2@^1.0.2:
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/backo2/-/backo2-1.0.2.tgz#31ab1ac8b129363463e35b3ebb69f4dfcfba7947"
 
 balanced-match@^1.0.0:
   version "1.0.2"
@@ -1367,6 +1396,17 @@ code-point-at@^1.0.0:
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/code-point-at/-/code-point-at-1.1.0.tgz#0d070b4d043a5bea33a2f1a40e2edb3d9a4ccf77"
 
+codemirror-graphql@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/codemirror-graphql/-/codemirror-graphql-1.0.0.tgz#ba8db60dc42b87768d643b3d19bf088f43dc5380"
+  dependencies:
+    graphql-language-service-interface "^2.8.2"
+    graphql-language-service-parser "^1.9.0"
+
+codemirror@^5.54.0:
+  version "5.60.0"
+  resolved "https://registry.yarnpkg.com/codemirror/-/codemirror-5.60.0.tgz#00a8cfd287d5d8737ceb73987f04aee2fe5860da"
+
 collection-visit@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/collection-visit/-/collection-visit-1.0.0.tgz#4bc0373c164bc3291b4d368c829cf1a80a59dca0"
@@ -1499,6 +1539,12 @@ cookie@0.4.0:
 copy-descriptor@^0.1.0:
   version "0.1.1"
   resolved "https://registry.yarnpkg.com/copy-descriptor/-/copy-descriptor-0.1.1.tgz#676f6eb3c39997c2ee1ac3a924fd6124748f578d"
+
+copy-to-clipboard@^3.2.0:
+  version "3.3.1"
+  resolved "https://registry.yarnpkg.com/copy-to-clipboard/-/copy-to-clipboard-3.3.1.tgz#115aa1a9998ffab6196f93076ad6da3b913662ae"
+  dependencies:
+    toggle-selection "^1.0.6"
 
 core-js@^2.4.0, core-js@^2.4.1, core-js@^2.5.3, core-js@^2.5.7:
   version "2.6.12"
@@ -1802,6 +1848,10 @@ dotenv@^6.1.0:
   version "6.2.0"
   resolved "https://registry.yarnpkg.com/dotenv/-/dotenv-6.2.0.tgz#941c0410535d942c8becf28d3f357dbd9d476064"
 
+dset@^3.0.0:
+  version "3.1.0"
+  resolved "https://registry.yarnpkg.com/dset/-/dset-3.1.0.tgz#23feb6df93816ea452566308b1374d6e869b0d7b"
+
 duplexer3@^0.1.4:
   version "0.1.4"
   resolved "https://registry.yarnpkg.com/duplexer3/-/duplexer3-0.1.4.tgz#ee01dd1cac0ed3cbc7fdbea37dc0a8f1ce002ce2"
@@ -1851,6 +1901,10 @@ emojis-list@^2.0.0:
   version "2.1.0"
   resolved "https://registry.yarnpkg.com/emojis-list/-/emojis-list-2.1.0.tgz#4daa4d9db00f9819880c79fa457ae5b09a1fd389"
 
+emojis-list@^3.0.0:
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/emojis-list/-/emojis-list-3.0.0.tgz#5570662046ad29e2e916e71aae260abdff4f6a78"
+
 encodeurl@~1.0.2:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/encodeurl/-/encodeurl-1.0.2.tgz#ad3ff4c86ec2d029322f5a02c3a9a606c95b3f59"
@@ -1866,6 +1920,14 @@ end-of-stream@^1.1.0:
   resolved "https://registry.yarnpkg.com/end-of-stream/-/end-of-stream-1.4.4.tgz#5ae64a5f45057baf3626ec14da0ca5e4b2431eb0"
   dependencies:
     once "^1.4.0"
+
+entities@^2.0.0:
+  version "2.2.0"
+  resolved "https://registry.yarnpkg.com/entities/-/entities-2.2.0.tgz#098dc90ebb83d8dffa089d55256b351d34c4da55"
+
+entities@~2.0.0:
+  version "2.0.3"
+  resolved "https://registry.yarnpkg.com/entities/-/entities-2.0.3.tgz#5c487e5742ab93c15abb5da22759b8590ec03b7f"
 
 errno@^0.1.1:
   version "0.1.8"
@@ -1945,6 +2007,10 @@ esutils@^2.0.2:
 etag@1.8.1, etag@~1.8.1:
   version "1.8.1"
   resolved "https://registry.yarnpkg.com/etag/-/etag-1.8.1.tgz#41ae2eeb65efa62268aebfea83ac7d79299b0887"
+
+eventemitter3@^3.1.0:
+  version "3.1.2"
+  resolved "https://registry.yarnpkg.com/eventemitter3/-/eventemitter3-3.1.2.tgz#2d3d48f9c346698fce83a85d7d664e98535df6e7"
 
 events@^3.0.0:
   version "3.3.0"
@@ -2478,6 +2544,19 @@ graphcool-yml@0.4.15:
     scuid "^1.0.2"
     yaml-ast-parser "^0.0.40"
 
+graphiql@^1.4.0:
+  version "1.4.0"
+  resolved "https://registry.yarnpkg.com/graphiql/-/graphiql-1.4.0.tgz#8b17c988720a9da5ea3ebf7ff9d86939b462655e"
+  dependencies:
+    "@graphiql/toolkit" "^0.1.0"
+    codemirror "^5.54.0"
+    codemirror-graphql "^1.0.0"
+    copy-to-clipboard "^3.2.0"
+    dset "^3.0.0"
+    entities "^2.0.0"
+    graphql-language-service "^3.1.2"
+    markdown-it "^10.0.0"
+
 graphql-cli-prepare@1.4.19:
   version "1.4.19"
   resolved "https://registry.yarnpkg.com/graphql-cli-prepare/-/graphql-cli-prepare-1.4.19.tgz#9df5d608ba42c4947d7ef24f9fc39e3df0c89301"
@@ -2571,6 +2650,39 @@ graphql-import@^0.7.1:
     lodash "^4.17.4"
     resolve-from "^4.0.0"
 
+graphql-language-service-interface@^2.8.2:
+  version "2.8.2"
+  resolved "https://registry.yarnpkg.com/graphql-language-service-interface/-/graphql-language-service-interface-2.8.2.tgz#b3bb2aef7eaf0dff0b4ea419fa412c5f66fa268b"
+  dependencies:
+    graphql-language-service-parser "^1.9.0"
+    graphql-language-service-types "^1.8.0"
+    graphql-language-service-utils "^2.5.1"
+    vscode-languageserver-types "^3.15.1"
+
+graphql-language-service-parser@^1.9.0:
+  version "1.9.0"
+  resolved "https://registry.yarnpkg.com/graphql-language-service-parser/-/graphql-language-service-parser-1.9.0.tgz#79af21294119a0a7e81b6b994a1af36833bab724"
+  dependencies:
+    graphql-language-service-types "^1.8.0"
+
+graphql-language-service-types@^1.8.0:
+  version "1.8.1"
+  resolved "https://registry.yarnpkg.com/graphql-language-service-types/-/graphql-language-service-types-1.8.1.tgz#963810010924f2b5eaea415d5b8eb0b7d42c479b"
+
+graphql-language-service-utils@^2.5.1:
+  version "2.5.1"
+  resolved "https://registry.yarnpkg.com/graphql-language-service-utils/-/graphql-language-service-utils-2.5.1.tgz#832ad4b0a9da03fdded756932c27e057ccf71302"
+  dependencies:
+    graphql-language-service-types "^1.8.0"
+    nullthrows "^1.0.0"
+
+graphql-language-service@^3.1.2:
+  version "3.1.2"
+  resolved "https://registry.yarnpkg.com/graphql-language-service/-/graphql-language-service-3.1.2.tgz#6f50d5d824ea09c402cb02902b10e54b9da899d5"
+  dependencies:
+    graphql-language-service-interface "^2.8.2"
+    graphql-language-service-types "^1.8.0"
+
 graphql-playground-html@1.6.12:
   version "1.6.12"
   resolved "https://registry.yarnpkg.com/graphql-playground-html/-/graphql-playground-html-1.6.12.tgz#8b3b34ab6013e2c877f0ceaae478fafc8ca91b85"
@@ -2603,6 +2715,10 @@ graphql-static-binding@0.9.3:
   resolved "https://registry.yarnpkg.com/graphql-static-binding/-/graphql-static-binding-0.9.3.tgz#67a51ed2e720edda5a250898af037ebf9dac57cf"
   dependencies:
     cucumber-html-reporter "^3.0.4"
+
+graphql-ws@^4.1.0:
+  version "4.3.2"
+  resolved "https://registry.yarnpkg.com/graphql-ws/-/graphql-ws-4.3.2.tgz#c58b03acc3bd5d4a92a6e9f729d29ba5e90d46a3"
 
 graphql@^0.13.1:
   version "0.13.2"
@@ -3413,6 +3529,12 @@ lines-and-columns@^1.1.6:
   version "1.1.6"
   resolved "https://registry.yarnpkg.com/lines-and-columns/-/lines-and-columns-1.1.6.tgz#1c00c743b433cd0a4e80758f7b64a57440d9ff00"
 
+linkify-it@^2.0.0:
+  version "2.2.0"
+  resolved "https://registry.yarnpkg.com/linkify-it/-/linkify-it-2.2.0.tgz#e3b54697e78bf915c70a38acd78fd09e0058b1cf"
+  dependencies:
+    uc.micro "^1.0.1"
+
 load-json-file@^2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/load-json-file/-/load-json-file-2.0.0.tgz#7947e42149af80d696cbf797bcaabcfe1fe29ca8"
@@ -3429,6 +3551,14 @@ loader-utils@1.2.3:
     big.js "^5.2.2"
     emojis-list "^2.0.0"
     json5 "^1.0.1"
+
+loader-utils@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/loader-utils/-/loader-utils-2.0.0.tgz#e4cace5b816d425a166b5f097e10cd12b36064b0"
+  dependencies:
+    big.js "^5.2.2"
+    emojis-list "^3.0.0"
+    json5 "^2.1.2"
 
 locate-path@^2.0.0:
   version "2.0.0"
@@ -3573,6 +3703,16 @@ map-visit@^1.0.0:
   dependencies:
     object-visit "^1.0.0"
 
+markdown-it@^10.0.0:
+  version "10.0.0"
+  resolved "https://registry.yarnpkg.com/markdown-it/-/markdown-it-10.0.0.tgz#abfc64f141b1722d663402044e43927f1f50a8dc"
+  dependencies:
+    argparse "^1.0.7"
+    entities "~2.0.0"
+    linkify-it "^2.0.0"
+    mdurl "^1.0.1"
+    uc.micro "^1.0.5"
+
 md5.js@^1.3.4:
   version "1.3.5"
   resolved "https://registry.yarnpkg.com/md5.js/-/md5.js-1.3.5.tgz#b5d07b8e3216e3e27cd728d72f70d1e6a342005f"
@@ -3580,6 +3720,10 @@ md5.js@^1.3.4:
     hash-base "^3.0.0"
     inherits "^2.0.1"
     safe-buffer "^5.1.2"
+
+mdurl@^1.0.1:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/mdurl/-/mdurl-1.0.1.tgz#fe85b2ec75a59037f2adfec100fd6c601761152e"
 
 media-typer@0.3.0:
   version "0.3.0"
@@ -3610,6 +3754,10 @@ merge-stream@^2.0.0:
 merge2@^1.2.3:
   version "1.4.1"
   resolved "https://registry.yarnpkg.com/merge2/-/merge2-1.4.1.tgz#4368892f885e907455a6fd7dc55c0c9d404990ae"
+
+meros@^1.1.2:
+  version "1.1.4"
+  resolved "https://registry.yarnpkg.com/meros/-/meros-1.1.4.tgz#c17994d3133db8b23807f62bec7f0cb276cfd948"
 
 methods@~1.1.2:
   version "1.1.2"
@@ -3949,7 +4097,14 @@ npm-which@^3.0.1:
     npm-path "^2.0.2"
     which "^1.2.10"
 
-nullthrows@^1.1.1:
+null-loader@^4.0.1:
+  version "4.0.1"
+  resolved "https://registry.yarnpkg.com/null-loader/-/null-loader-4.0.1.tgz#8e63bd3a2dd3c64236a4679428632edd0a6dbc6a"
+  dependencies:
+    loader-utils "^2.0.0"
+    schema-utils "^3.0.0"
+
+nullthrows@^1.0.0, nullthrows@^1.1.1:
   version "1.1.1"
   resolved "https://registry.yarnpkg.com/nullthrows/-/nullthrows-1.1.1.tgz#7818258843856ae971eae4208ad7d7eb19a431b1"
 
@@ -4873,6 +5028,14 @@ scheduler@^0.19.1:
     loose-envify "^1.1.0"
     object-assign "^4.1.1"
 
+schema-utils@^3.0.0:
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/schema-utils/-/schema-utils-3.0.0.tgz#67502f6aa2b66a2d4032b4279a2944978a0913ef"
+  dependencies:
+    "@types/json-schema" "^7.0.6"
+    ajv "^6.12.5"
+    ajv-keywords "^3.5.2"
+
 scuid@^1.0.2:
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/scuid/-/scuid-1.1.0.tgz#d3f9f920956e737a60f72d0e4ad280bf324d5dab"
@@ -5283,6 +5446,16 @@ stylis@3.5.4:
   version "3.5.4"
   resolved "https://registry.yarnpkg.com/stylis/-/stylis-3.5.4.tgz#f665f25f5e299cf3d64654ab949a57c768b73fbe"
 
+subscriptions-transport-ws@^0.9.18:
+  version "0.9.18"
+  resolved "https://registry.yarnpkg.com/subscriptions-transport-ws/-/subscriptions-transport-ws-0.9.18.tgz#bcf02320c911fbadb054f7f928e51c6041a37b97"
+  dependencies:
+    backo2 "^1.0.2"
+    eventemitter3 "^3.1.0"
+    iterall "^1.2.1"
+    symbol-observable "^1.0.4"
+    ws "^5.2.0"
+
 supports-color@^5.2.0, supports-color@^5.3.0:
   version "5.5.0"
   resolved "https://registry.yarnpkg.com/supports-color/-/supports-color-5.5.0.tgz#e2e69a44ac8772f78a1ec0b35b689df6530efc8f"
@@ -5313,6 +5486,10 @@ swap-case@^1.1.0:
   dependencies:
     lower-case "^1.1.1"
     upper-case "^1.1.1"
+
+symbol-observable@^1.0.4:
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/symbol-observable/-/symbol-observable-1.2.0.tgz#c22688aed4eab3cdc2dfeacbb561660560a00804"
 
 sync-exec@^0.6.2:
   version "0.6.2"
@@ -5422,6 +5599,10 @@ to-regex@^3.0.1, to-regex@^3.0.2:
     regex-not "^1.0.2"
     safe-regex "^1.1.0"
 
+toggle-selection@^1.0.6:
+  version "1.0.6"
+  resolved "https://registry.yarnpkg.com/toggle-selection/-/toggle-selection-1.0.6.tgz#6e45b1263f2017fa0acc7d89d78b15b8bf77da32"
+
 toidentifier@1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/toidentifier/-/toidentifier-1.0.0.tgz#7e1be3470f1e77948bc43d94a3c8f4d7752ba553"
@@ -5495,6 +5676,10 @@ type-is@^1.6.16, type-is@~1.6.17, type-is@~1.6.18:
 ua-parser-js@^0.7.18:
   version "0.7.27"
   resolved "https://registry.yarnpkg.com/ua-parser-js/-/ua-parser-js-0.7.27.tgz#b54f8ce9eb6c7abf3584edeaf9a3d8b3bd92edba"
+
+uc.micro@^1.0.1, uc.micro@^1.0.5:
+  version "1.0.6"
+  resolved "https://registry.yarnpkg.com/uc.micro/-/uc.micro-1.0.6.tgz#9c411a802a409a91fc6cf74081baba34b24499ac"
 
 unbox-primitive@^1.0.0:
   version "1.0.1"
@@ -5692,6 +5877,10 @@ vm-browserify@1.1.2, vm-browserify@^1.0.1:
   version "1.1.2"
   resolved "https://registry.yarnpkg.com/vm-browserify/-/vm-browserify-1.1.2.tgz#78641c488b8e6ca91a75f511e7a3b32a86e5dda0"
 
+vscode-languageserver-types@^3.15.1:
+  version "3.16.0"
+  resolved "https://registry.yarnpkg.com/vscode-languageserver-types/-/vscode-languageserver-types-3.16.0.tgz#ecf393fc121ec6974b2da3efb3155644c514e247"
+
 watchpack@2.1.1:
   version "2.1.1"
   resolved "https://registry.yarnpkg.com/watchpack/-/watchpack-2.1.1.tgz#e99630550fca07df9f90a06056987baa40a689c7"
@@ -5789,6 +5978,12 @@ write-file-atomic@^2.0.0:
     graceful-fs "^4.1.11"
     imurmurhash "^0.1.4"
     signal-exit "^3.0.2"
+
+ws@^5.2.0:
+  version "5.2.2"
+  resolved "https://registry.yarnpkg.com/ws/-/ws-5.2.2.tgz#dffef14866b8e8dc9133582514d1befaf96e980f"
+  dependencies:
+    async-limiter "~1.0.0"
 
 xdg-basedir@^3.0.0:
   version "3.0.0"

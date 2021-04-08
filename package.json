@@ -12,8 +12,10 @@
   "author": "",
   "license": "MIT",
   "dependencies": {
+    "graphiql": "^1.4.0",
     "graphql": "^14.6.0",
     "next": "latest",
+    "null-loader": "^4.0.1",
     "react": "^16.13.0",
     "react-dom": "^16.13.0",
     "react-relay": "^9.0.0",

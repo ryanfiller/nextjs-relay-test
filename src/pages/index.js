@@ -14,6 +14,7 @@ const query = graphql`
 
 const Index = ({ environment }) => {
   const { error, props } = useQuery(query)
+  console.log('props', props)
 
   if (error) return <div>{error.message}</div>
 
