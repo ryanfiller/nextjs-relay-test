@@ -1,0 +1,1 @@
+Cypress.Commands.add('closePopup', () => cy.get('button[alt="Close form"]').click())

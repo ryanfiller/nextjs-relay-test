@@ -1,0 +1,112 @@
+{
+  "arrival_date": "2021-04-19",
+  "duration": 4,
+  "return_date": "2021-04-23",
+  "earliest_ship_date": "2021-03-31",
+  "shipping": {
+    "price": "$25.00",
+    "discount": "$25.00",
+    "shipping_method": "FedEx Ground",
+    "shipping_label": "FedEx Ground - $25.00"
+  },
+  "shipping_methods": [
+    {
+      "price": "$25.00",
+      "shipping_method": "FedEx Ground",
+      "shipping_label": "FedEx Ground - $25.00",
+      "enabled": true,
+      "ship_types": [
+        "delivery",
+        "fedex_office"
+      ]
+    },
+    {
+      "price": "$44.00",
+      "shipping_method": "FedEx Priority Overnight",
+      "shipping_label": "FedEx Priority Overnight - $44.00",
+      "enabled": true,
+      "ship_types": [
+        "delivery",
+        "fedex_office"
+      ],
+      "expedited": true
+    },
+    {
+      "price": "$30.00",
+      "shipping_method": "UPS Ground",
+      "shipping_label": "UPS Ground - $30.00",
+      "enabled": true,
+      "ship_types": [
+        "delivery",
+        null
+      ]
+    },
+    {
+      "price": "$63.00",
+      "shipping_method": "UPS Next Day Air",
+      "shipping_label": "UPS Next Day Air - $63.00",
+      "enabled": true,
+      "ship_types": [
+        "delivery",
+        null
+      ],
+      "expedited": true
+    },
+    {
+      "enabled": true,
+      "ship_types": [
+        "pickup"
+      ],
+      "shipping_method": "Local pickup in Cordova, TN",
+      "shipping_label": "Local pickup in Cordova, TN - $0.00",
+      "price": "$0.00"
+    },
+    {
+      "enabled": true,
+      "ship_types": [
+        "pickup"
+      ],
+      "shipping_method": "Local pickup in Brentwood, TN",
+      "shipping_label": "Local pickup in Brentwood, TN - $0.00",
+      "price": "$0.00"
+    }
+  ],
+  "preferred_shipping_method": "FedEx Ground",
+  "subtotal": "$769.00",
+  "total": "$794.00",
+  "cart": [
+    {
+      "price": "$769.00",
+      "quantity": 1,
+      "product_price": "$674.00",
+      "image_url": "https://ebookscart.com/wp-content/uploads/2020/05/1-77.png",
+      "name": "YERTLE THE TURTLE",
+      "id": "10604",
+      "numeric_id": 10604,
+      "waiverable": true,
+      "available_on": "2021-04-09",
+      "availability_label": "Available 04/09/21",
+      "discontinued": true,
+      "waiver": {
+        "quantity": 1,
+        "price_for_type": "$95.00",
+        "single_price": "$95.00",
+        "fully_insured_single_price": "$142.00",
+        "type": "damage_waiver_insured",
+        "default_to_full_insurance": false
+      },
+      "product_url": "/rent/arri-75mm-t1.8-signature-prime-lpl"
+    }
+  ],
+  "can_add_full_insurance": true,
+  "additional_amount_till_full_insurance": "$47.00",
+  "full_insurance_added": null,
+  "hd_eligible": true,
+  "enroll_in_hd": false,
+  "insurance_price": "$95.00",
+  "item_subtotal": "$674.00",
+  "ship_type": "fedex_office",
+  "zip_code": "38111",
+  "hd_enrolled": false,
+  "hd_price": 99.0
+}

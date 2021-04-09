@@ -14,16 +14,22 @@ const query = graphql`
 
 const Index = ({ environment, data }) => {
   // const { error, props } = useQuery(query)
-  console.log('data', data)
 
   // if (error) return <div>{error.message}</div>
 
-  // if (!props) return <div>Loading</div>
-
-  // return <BlogPosts viewer={props.viewer} />
+  // if (!props) return <div>Loading...</div>
 
   return (
-    <div>hello from index</div>
+    <ul>
+      {data.map((item, index) => (
+        <li key={index}>
+          <a href={`https://www.lensrentals.com${item.path}`}>
+            {item.name}
+            <img src={`https://www.lensrentals.com${item.baseball_card_image_url}`} alt={item.name}/>
+          </a>
+        </li>     
+      ))}
+    </ul>
   )
 }
 
@@ -40,7 +46,7 @@ export async function getStaticProps() {
   return {
     props: {
       data: data
-    },
+    }
   }
 }
 
