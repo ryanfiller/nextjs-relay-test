@@ -12,27 +12,34 @@ const query = graphql`
   }
 `
 
-const Index = ({ environment }) => {
-  const { error, props } = useQuery(query)
-  console.log('props', props)
+const Index = ({ environment, data }) => {
+  // const { error, props } = useQuery(query)
+  console.log('data', data)
 
-  if (error) return <div>{error.message}</div>
+  // if (error) return <div>{error.message}</div>
 
-  if (!props) return <div>Loading</div>
+  // if (!props) return <div>Loading</div>
 
-  return <BlogPosts viewer={props.viewer} />
+  // return <BlogPosts viewer={props.viewer} />
+
+  return (
+    <div>hello from index</div>
+  )
 }
 
 export async function getStaticProps() {
-  const { environment, relaySSR } = initEnvironment()
-
-  await fetchQuery(environment, query)
-
-  const relayData = (await relaySSR.getCache())?.[0]
+  const data = await fetch('https://www.lensrentals.com/')
+    .then(response => response.text())
+    .then(data => {
+      return JSON.parse(data
+        .match(/window\._products = (.*)<\/script>/gs)[0]
+        .replace('window._products = ', '')
+        .replace('</script>', ''))
+    })
 
   return {
     props: {
-      relayData: !relayData ? null : [[relayData[0], relayData[1].json]],
+      data: data
     },
   }
 }
