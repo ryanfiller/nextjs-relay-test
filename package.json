@@ -3,6 +3,7 @@
   "version": "3.0.3",
   "description": "Example of Next.js with Relay Modern and react-relay-network-modern",
   "scripts": {
+    "preinstall": "npx npm-force-resolutions",
     "dev": "next",
     "build": "next build",
     "start": "next start",
@@ -12,9 +13,11 @@
   },
   "author": "",
   "license": "MIT",
+  "resolutions": {
+    "graphql": "^0.13.0"
+  },
   "dependencies": {
     "graphiql": "^1.4.0",
-    "graphql": "^14.6.0",
     "next": "latest",
     "null-loader": "^4.0.1",
     "react": "^16.13.0",
@@ -29,6 +32,7 @@
     "babel-plugin-relay": "^9.0.0",
     "cross-env": "^7.0.3",
     "cypress": "^7.0.1",
+    "graphql": "^14.6.0",
     "graphql-cli": "^3.0.11",
     "relay-compiler": "^9.0.0"
   }

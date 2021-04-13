@@ -3,7 +3,8 @@ import GraphiQL from 'graphiql'
 import fetch from 'isomorphic-fetch'
 
 function graphQLFetcher(params) {
-  const url = 'https://4dfvc8wj.api.sanity.io/v1/graphql/production/default'
+  const url = process.env.DEMO_ENDPOINT
+  console.log('url', url)
   const query = encodeURIComponent(params.query)
   const variables = JSON.stringify(params.variables || {})
   const operationName = params.operationName || ''

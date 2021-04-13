@@ -4,13 +4,13 @@ import { useQuery } from 'relay-hooks'
 import { initEnvironment } from '../lib/createEnvironment'
 import BlogPosts from '../components/BlogPosts'
 
-const query = graphql`
-  query pages_indexQuery {
-    viewer {
-      ...BlogPosts_viewer
-    }
-  }
-`
+// const query = graphql`
+//   query pages_indexQuery {
+//     viewer {
+//       ...BlogPosts_viewer
+//     }
+//   }
+// `
 
 const Index = ({ environment, data }) => {
   // const { error, props } = useQuery(query)
