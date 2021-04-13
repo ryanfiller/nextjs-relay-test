@@ -3,7 +3,7 @@ import mockSaleCart from '../fixtures/mock-sale-cart-response.json'
 
 describe('going between two domains', () => {
 
-  it('shows no Response message', () => {
+  it('intercepts the request on another site', () => {
     cy.visit('http://storefront.lrdev/cart', {
     // cy.visit('https://www.lensrentals.com/cart', {
       onBeforeLoad (window) {
