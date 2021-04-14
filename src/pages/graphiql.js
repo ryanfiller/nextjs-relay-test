@@ -4,7 +4,6 @@ import fetch from 'isomorphic-fetch'
 
 function graphQLFetcher(params) {
   const url = process.env.DEMO_ENDPOINT
-  console.log('url', url)
   const query = encodeURIComponent(params.query)
   const variables = JSON.stringify(params.variables || {})
   const operationName = params.operationName || ''

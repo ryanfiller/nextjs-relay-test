@@ -1,0 +1,9 @@
+.color-blocks {
+  display: flex;
+
+  span {
+    display: block;
+    height: 100px;
+    flex: 1;
+  }
+}
