@@ -19,6 +19,11 @@ export default function Nav() {
             <a>relay test</a>
           </Link>
         </li>
+        <li>
+          <Link href="/api/test">
+            <a>json api</a>
+          </Link>
+        </li>
       </ul>
     </nav>
   )
